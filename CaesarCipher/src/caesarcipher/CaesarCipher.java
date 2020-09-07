@@ -15,7 +15,7 @@ public class CaesarCipher {
     //create instance of Random class
     static Random rand = new Random();
     //Generate random number for Caesar Shift    
-    public static int charShift = rand.nextInt(1000);
+    static int charShift = rand.nextInt(1000);
         
     public static void main(String[] args) {
         System.out.println(charShift);
